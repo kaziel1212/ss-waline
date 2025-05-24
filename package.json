@@ -7,7 +7,7 @@
     "admin:dev": "pnpm --dir=packages/admin dev",
     "api:build": "pnpm --dir=packages/api build",
     "apidoc": "apidoc -i packages/server/src/logic -o docs/src/.vuepress/dist/api",
-    "build": "pnpm admin:build && pnpm api:build && pnpm client:build --output public"",
+    "build": "pnpm admin:build && pnpm api:build && pnpm client:build --output public",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
     "clean": "pnpm -r clean",
     "client:build": "pnpm --dir=packages/client build",
